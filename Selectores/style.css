@@ -1,0 +1,49 @@
+.primer-bloque {
+  width: 100%;
+  height: 250px;
+  background-color: #1c2742;
+  color: white;
+}
+
+#titular {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.tercer-bloque {
+  width: 100%;
+  height: 200px;
+  background-color: #1c2742;
+}
+
+.tercer-bloque > div {
+  position: relative;
+  top: 55px;
+}
+
+.tercer-bloque p {
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: blueviolet;
+}

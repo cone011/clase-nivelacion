@@ -1,0 +1,11 @@
+p {
+  padding: 30px;
+  border: 2px solid #f00;
+  width: 500px;
+  height: 100px;
+  margin: 20px;
+}
+
+span {
+  border: 2px solid green;
+}

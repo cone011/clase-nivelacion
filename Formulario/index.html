@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <form method="post" action="#">
+      <fieldset>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required />
+      </fieldset>
+      <fieldset>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" required />
+      </fieldset>
+      <fieldset>
+        <label for="correo">Correo</label>
+        <input type="email" id="correr" name="correo" />
+      </fieldset>
+      <fieldset>
+        <label for="color">Color</label>
+        <input type="color" id="color" name="color" />
+      </fieldset>
+      <fieldset>
+        <label>
+          <input type="radio" name="talla" value="S" />
+          Talla S
+        </label>
+        <label>
+          <input type="radio" name="talla" value="M" checked />
+          Talla M
+        </label>
+        <label>
+          <input type="radio" name="talla" value="L" />
+          Talla L
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="comentario">Comentario</label>
+        <textarea name="comentario"></textarea>
+      </fieldset>
+      <fieldset>
+        <button type="button">Pedir</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
